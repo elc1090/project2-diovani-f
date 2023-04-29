@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Previsão do tempo</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+	<header>
+		<h1>Previsão do tempo</h1>
+	</header>
+	<main>
+
+		<div class="input-group mb-3">
+			<input type="text" class="form-control" placeholder="Digite sua cidade:" aria-describedby="button-addon2" id="meuTextArea">
+			<div class="input-group-append">
+			  <button class="btn btn-outline-primary" type="button" id="meuBotao">Buscar</button>
+			</div>
+		</div>
+
+		<h2 id="location" class="text-center"></h2>
+		<div class="weather-container">
+			<div class="weather-card">
+				<div id="day1" class="day"></div>
+			</div>
+			<div class="weather-card">
+				<div id="day2" class="day"></div>
+			</div>
+			<div class="weather-card">
+				<div id="day3" class="day"></div>
+			</div>
+			<div class="weather-card">
+				<div id="day4" class="day"></div>
+			</div>
+			<div class="weather-card">
+				<div id="day5" class="day"></div>
+			</div>
+			<div class="weather-card">
+				<div id="day6" class="day"></div>
+			</div>
+		</div>
+	</main>
+	<script src="script.js"></script>
+</body>
+</html>

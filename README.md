@@ -1,4 +1,4 @@
-# Projeto2a: GitHub API e DOM Manipulation
+#Projeto Api
 
 ![Screenshot do projeto](/print.png "Screenshot do projeto").
 
